@@ -21,3 +21,4 @@ with open('students.json', 'w') as fp:
     json.dump(students, fp, indent=4)
 
 print(f"JSON file created with {n1} student records.")
+
